@@ -9,6 +9,7 @@ import { MyBarChartComponent } from './my-bar-chart/my-bar-chart.component';
 import { MyDoughnutChartComponent } from './my-doughnut-chart/my-doughnut-chart.component';
 import { MyRadarChartComponent } from './my-radar-chart/my-radar-chart.component';
 import { MyPieChartComponent } from './my-pie-chart/my-pie-chart.component';
+import { MyLineChartComponent } from './my-line-chart/my-line-chart.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MyPieChartComponent } from './my-pie-chart/my-pie-chart.component';
     MyBarChartComponent,
     MyDoughnutChartComponent,
     MyRadarChartComponent,
-    MyPieChartComponent
+    MyPieChartComponent,
+    MyLineChartComponent
   ],
   imports: [
     BrowserModule,
